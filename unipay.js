@@ -1,7 +1,7 @@
 //兼容loon和qx,理论上支持surge
 //获取Authorization重写配置:
-//Qx:https://youhui.95516.com/newsign/api/coin_details url script-request-header https://gitee.com/passerby-b/javascript/raw/master/unipay.js
-//Loon:http-request https://youhui.95516.com/newsign/api/coin_details script-path=https://gitee.com/passerby-b/javascript/raw/master/unipay.js, requires-body=true, timeout=10, tag=云闪付签到
+//Qx:https://youhui.95516.com/newsign/api/coin_details url script-request-header https://raw.githubusercontent.com/kan2ken/bak/main/unipay.js
+//Loon:http-request https://youhui.95516.com/newsign/api/coin_details script-path=https://raw.githubusercontent.com/kan2ken/bak/main/unipay.js, requires-body=true, timeout=10, tag=云闪付签到
 //添加MITM hostname:youhui.95516.com
 //经测试authorization有效期为3天,自行决定是否需要折腾
 //云闪付app最好别升级,有可能导致签到失效
